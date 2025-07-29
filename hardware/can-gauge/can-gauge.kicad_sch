@@ -1,0 +1,1097 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "742f64ac-c4d8-4561-a2a9-e0e3f6f67ce8")
+	(paper "A4")
+	(title_block
+		(title "CAN Gauge")
+		(date "2025-07-28")
+		(rev "1")
+		(company "Brian Glen")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 177.8 12.7)
+		(end 177.8 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4b2f3805-4891-4f76-9a84-b318e0167ebc)
+	)
+	(rectangle
+		(start 12.7 85.09)
+		(end 284.48 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8aaee491-3b01-49ce-8d67-359716d77c78)
+	)
+	(text "Connector"
+		(exclude_from_sim no)
+		(at 15.24 90.932 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1161da7a-0a5e-4717-b765-97d96c111c88")
+	)
+	(text "Power Supply"
+		(exclude_from_sim no)
+		(at 25.146 130.302 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2367a085-9715-46d1-a100-1eae3ebe054a")
+	)
+	(text "CAN Bus"
+		(exclude_from_sim no)
+		(at 180.086 16.51 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "277bc927-4a6e-412c-8c98-c3eceacd432c")
+	)
+	(text "Microcontroller"
+		(exclude_from_sim no)
+		(at 14.732 17.018 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d536255e-be4a-4a64-b16f-ce245c9c71fb")
+	)
+	(text "Connector"
+		(exclude_from_sim no)
+		(at 180.086 89.408 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f5e75010-6529-471c-9f47-bf270ac0a3a8")
+	)
+	(wire
+		(pts
+			(xy 87.63 39.37) (xy 90.17 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0946f40e-b213-4ca9-88bc-c43fca59d114")
+	)
+	(wire
+		(pts
+			(xy 87.63 34.29) (xy 90.17 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbbad56-7703-4917-8965-331f29dce980")
+	)
+	(wire
+		(pts
+			(xy 214.63 53.34) (xy 217.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1def5d6a-3553-41ed-98e2-e85d3869f7b8")
+	)
+	(wire
+		(pts
+			(xy 87.63 31.75) (xy 90.17 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b53fce9-d478-4e1c-b2fb-75141b538a56")
+	)
+	(wire
+		(pts
+			(xy 214.63 45.72) (xy 217.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f69448d-757d-43f1-8d91-1609afc559fa")
+	)
+	(wire
+		(pts
+			(xy 87.63 64.77) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873c6e11-ba0c-4eec-822d-6813f3a4cae9")
+	)
+	(wire
+		(pts
+			(xy 214.63 48.26) (xy 217.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a08da68-a745-44df-9312-d78bf58e1241")
+	)
+	(wire
+		(pts
+			(xy 87.63 59.69) (xy 90.17 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90677f66-890b-4459-9528-ddc3f8c15c1f")
+	)
+	(wire
+		(pts
+			(xy 87.63 46.99) (xy 90.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981b96d9-d8f6-439d-8669-7648461869e8")
+	)
+	(wire
+		(pts
+			(xy 87.63 62.23) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ce5f15-398d-4a9b-8ecb-79c6ab0afc6e")
+	)
+	(wire
+		(pts
+			(xy 214.63 50.8) (xy 217.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c38f64-3cf1-4dd4-95fa-b2c999249a4c")
+	)
+	(wire
+		(pts
+			(xy 87.63 36.83) (xy 90.17 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd20a51-a596-40d3-bd78-5ceff6789d5e")
+	)
+	(wire
+		(pts
+			(xy 87.63 49.53) (xy 90.17 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b891c04e-aaad-47a3-929d-3507c01f3f4f")
+	)
+	(wire
+		(pts
+			(xy 87.63 41.91) (xy 90.17 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd400859-0fe9-4ab2-85e4-ea277ac18803")
+	)
+	(wire
+		(pts
+			(xy 87.63 44.45) (xy 90.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91e7d52-def7-498f-8f7b-abcb4fb7ad25")
+	)
+	(wire
+		(pts
+			(xy 214.63 43.18) (xy 217.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6834726-d845-4b01-87ed-2cb42625ca06")
+	)
+	(label "CAN_STANDBY"
+		(at 90.17 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "116f96b0-a159-418a-b5b7-09542321a80b")
+	)
+	(label "3.3V_ANALOG_INPUT_6"
+		(at 90.17 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12198897-5165-4721-821a-86f693566b9a")
+	)
+	(label "CAN_RX"
+		(at 214.63 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "123d4e55-8098-45f9-8a93-849ccb8ed06c")
+	)
+	(label "3.3V_ANALOG_INPUT_5"
+		(at 90.17 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a851bbf-a234-42fe-b4e6-11a796797144")
+	)
+	(label "CAN_RX"
+		(at 90.17 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35c50cab-7652-4a5b-abe9-1982a985271c")
+	)
+	(label "3.3V_ANALOG_INPUT_4"
+		(at 90.17 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42dcf2a4-86ec-4e78-b518-69a6ffd2e6cf")
+	)
+	(label "CAN_STANDBY"
+		(at 214.63 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "457af3b4-1134-46e8-b9b2-a1da3226256a")
+	)
+	(label "3.3V_ANALOG_INPUT_0"
+		(at 90.17 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b50381b-0112-4812-8214-388faa44c2d3")
+	)
+	(label "3.3V_ANALOG_INPUT_1"
+		(at 90.17 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e637fb7-efdb-42f8-96d1-1ec98465342a")
+	)
+	(label "CAN_TX"
+		(at 214.63 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "732d6ad1-5246-44e2-83ef-fdd99b3292c5")
+	)
+	(label "3.3V_ANALOG_INPUT_7"
+		(at 90.17 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "873b2130-83bd-48fc-9bf0-d2d54e9f3964")
+	)
+	(label "CAN_TX"
+		(at 90.17 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb0876da-2022-4b33-9153-29b85520a11c")
+	)
+	(label "3.3V_ANALOG_INPUT_3"
+		(at 90.17 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c62f36e5-e99a-4a28-a491-4c700a798d66")
+	)
+	(label "3.3V_ANALOG_INPUT_2"
+		(at 90.17 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8ebd0d4-273c-4291-b4b6-c357d26237c3")
+	)
+	(label "CAN_P"
+		(at 214.63 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2d14a2f-7ac5-4c7d-ab9e-b5d4b2c261c7")
+	)
+	(label "CAN_N"
+		(at 214.63 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f448ac2f-a72c-4817-94b8-5e2f880df4a1")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 49.53 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ea58081-e717-4ee7-baa8-3da009676e6f")
+		(property "Reference" "H4"
+			(at 52.07 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 52.07 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "signal-to-can"
+				(path "/742f64ac-c4d8-4561-a2a9-e0e3f6f67ce8"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 49.53 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "301741e4-fd2a-44e8-8d3f-55cab29603ea")
+		(property "Reference" "H3"
+			(at 52.07 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 52.07 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 49.53 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 49.53 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/742f64ac-c4d8-4561-a2a9-e0e3f6f67ce8"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 27.94 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f0f80cc-37cb-4be4-a2a7-5fecec90c9ef")
+		(property "Reference" "H1"
+			(at 30.48 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 30.48 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 27.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 27.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/742f64ac-c4d8-4561-a2a9-e0e3f6f67ce8"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 27.94 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e543c75e-2c7a-4bc5-aeca-20c4004c2f18")
+		(property "Reference" "H2"
+			(at 30.48 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 30.48 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "signal-to-can"
+				(path "/742f64ac-c4d8-4561-a2a9-e0e3f6f67ce8"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 137.16)
+		(size 53.34 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b74f6f5-1560-4843-a54e-584b3d17c5b1")
+		(property "Sheetname" "3.3V Linear Regulator"
+			(at 25.4 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply_3v3_400ma_40V_protected.kicad_sch"
+			(at 25.4 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "can-gauge"
+				(path "/742f64ac-c4d8-4561-a2a9-e0e3f6f67ce8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 40.64)
+		(size 38.1 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b93d8d5a-c9dc-4552-9959-3cf22fd198ac")
+		(property "Sheetname" "CAN Transciever"
+			(at 217.17 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can_transciever_no_term.kicad_sch"
+			(at 217.17 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_P" bidirectional
+			(at 217.17 43.18 180)
+			(uuid "54b78a69-b485-4d4b-b3c5-bd2f6bc2648c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_N" bidirectional
+			(at 217.17 45.72 180)
+			(uuid "c5b20981-a40e-4d2a-b0a1-8a4866c886cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" bidirectional
+			(at 217.17 48.26 180)
+			(uuid "38f1ade5-1ab5-4861-b662-9d33df81da41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_STANDBY" bidirectional
+			(at 217.17 53.34 180)
+			(uuid "4a639922-c90d-4791-a754-48f5ed19c4a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" bidirectional
+			(at 217.17 50.8 180)
+			(uuid "c299f88b-70c2-4bf8-80db-ca4a47cf7c70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "can-gauge"
+				(path "/742f64ac-c4d8-4561-a2a9-e0e3f6f67ce8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 106.68)
+		(size 29.21 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "becb2e00-4f93-4f3e-b8a5-023b08695b91")
+		(property "Sheetname" "Display"
+			(at 210.82 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display_round.kicad_sch"
+			(at 210.82 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "can-gauge"
+				(path "/742f64ac-c4d8-4561-a2a9-e0e3f6f67ce8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 29.21)
+		(size 29.21 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f7ca0aa3-2e40-412d-9746-08f02e08c71b")
+		(property "Sheetname" "Microcontroller"
+			(at 58.42 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32f042k6ux.kicad_sch"
+			(at 58.42 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V_ANALOG_INPUT_5" input
+			(at 87.63 44.45 0)
+			(uuid "2e481a62-5b8a-4278-997f-eb6fb4eca1d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V_ANALOG_INPUT_1" input
+			(at 87.63 34.29 0)
+			(uuid "cb9f7cce-8948-40cb-a052-d25e7c8d1971")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V_ANALOG_INPUT_0" input
+			(at 87.63 31.75 0)
+			(uuid "a9d9cf9c-2952-42d8-8ac3-5e0af2fcdba2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_STANDBY" input
+			(at 87.63 64.77 0)
+			(uuid "835218b3-8733-471a-b43f-131f9bc21431")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V_ANALOG_INPUT_2" input
+			(at 87.63 36.83 0)
+			(uuid "48c30310-11a0-4a1f-9808-b08410380851")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V_ANALOG_INPUT_4" input
+			(at 87.63 41.91 0)
+			(uuid "cab09821-4b0b-4a06-ad85-99d914a91900")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V_ANALOG_INPUT_7" input
+			(at 87.63 49.53 0)
+			(uuid "c7254a42-4396-4038-b669-f3d00f3475f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 87.63 59.69 0)
+			(uuid "a7e71421-8222-4d12-b862-e719e6df3edd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 87.63 62.23 0)
+			(uuid "58c37943-d7ef-41d6-8bd8-3411630914ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V_ANALOG_INPUT_6" input
+			(at 87.63 46.99 0)
+			(uuid "e0176f21-c552-403d-a7cd-a341ea9683b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V_ANALOG_INPUT_3" input
+			(at 87.63 39.37 0)
+			(uuid "6fd686bc-36de-4e45-8c03-8e38ea28918c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "can-gauge"
+				(path "/742f64ac-c4d8-4561-a2a9-e0e3f6f67ce8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
